@@ -1,0 +1,57 @@
+.shopsage-notice {
+    border-left-color: #7F54B3;
+    display: flex;
+    align-items: center;
+}
+
+.shopsage-notice-icon {
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 100%;
+    margin: 20px 17px 20px 5px;
+    flex-shrink: 0;
+}
+
+.shopsage-notice-icon img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 12px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.shopsage-notice-content {
+    margin: 22px 0 10px;
+}
+
+.shopsage-notice-content h2 {
+    margin: 0 0 10px;
+    font-weight: bolder;
+    color: #2e4453;
+}
+
+.shopsage-notice-content p {
+    margin: 0;
+    padding: 0;
+}
+
+.shopsage-notice-content ul li {
+    display: inline;
+    padding-right: 3px;
+}
+
+.shopsage-notice-reference {
+    margin-left: auto;
+}
+
+.shopsage-notice-reference a img {
+    max-width: 200px;
+    margin-right: 20px;
+}
